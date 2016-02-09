@@ -1,0 +1,119 @@
+<!DOCTYPE>
+<html ng-app="myApp">
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <Title>Kaitlyn Simpson - Resume</Title>
+    </head>
+    <body>
+        <div class="container" ng-controller="AppCtrl">
+          <h1>Kaitlyn Simpson</h1>
+          <a href ng-click="about = !about">About</a>
+          <div class="media" ng-show="about">
+            <div class="panel panel-default">
+            <div class="panel-body">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="/images/linkedin.jpg" alt="" width="100px" height="auto">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">About Kaitlyn</h4>
+                Kaitlyn will be graduating in May 2016 and is looking for full time employment shortly after that.  Her past internship projects have ranged from programming in C/C++ to ASP.NET and C# alongside MySQL and javascript. Past class work has included a web app in ruby on rails and another using CAKEPHP. She also has class experience with Java, javascript, HTML, and MATLAB.
+Kaitlyn has had the opportunity to work on the front end and back end of the stack and enjoys both. She has completed a course in javascript and database systems. She has also taken several courses in which she learned Agile and Scrum and put the philosophy work in her projects. 
+Kaitlyn is ready to get on a real world team and start coding. Please call or e-mail her if you would like more information or would like to set-up an interview.
+            </div>
+            </div>
+            </div>
+          </div>
+          <br>
+          <a href ng-click="current = !current">Current Projects</a>
+          <div class="panel panel-default" ng-show="current">
+            <div class="panel-body" >
+              This semester, Kaitlyn is completing her senior design project. She is working in a group of four to create
+              an Andriod app that will display CAN-bus messages from a vehicle sent over bluetooth. She is working in another
+              group of four to create a website for the University of Iowa running club. For this project she will be utilizing
+              Angularjs, Nodejs, MongoDB, the google maps api and several testing frameworks. This project will be done using
+              the Agile process, specifically Scrum. She will be using Pivotal Tracker for keeping track of user stories, Heroku
+              for deployment, and the Cloud9 IDE.
+            </div>
+          </div>
+          
+          <div class="panel panel-default">
+            <div class="panel-heading"><font size="5">Contact Information</font></div>
+            <div class="panel-body">
+              <table class="table" border="0">
+                <tr>
+                  <td>406 S. Gilbert St. APT 913</td>
+                  <td>kaitlynjsimpson93@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Iowa City, IA 52240</td>
+                  <td>(563)-564-6743</td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.linkedin.com/in/kaitlyn-simpson-2255a980">LinkedIn</a></td>
+                  <td><a href="https://github.com/KaitlynSimpson">GitHub</a></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading"><font size="5">Computer Skills</font></div>
+            <div class="panel-body">
+              •	C/C++, Java, MATLAB, C#, ASP.NET, javascript, CakePHP framework, Ruby on Rails
+              <br>
+              •	Visual Studios, Codeblocks, SQL Server Management Studio, Eclipse
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading"><font size="5">Internship</font></div>
+            <div class="panel-body">
+              <h4>Innomatix LLC- Summer 2015</h4>
+              •	Designed a web interface which allowed users to choose data and then download it as an Excel graph format<br>
+              •	Added to an existing web interface to add an option to format downloadable data as a MATLAB file that companies can use for data analysis<br>
+              •	Created a dashboard for an existing website using AJAX, allowing users to efficiently view data<br>
+              <h4>Innomatix LLC- Summer 2014</h4>
+              •	Collaborated with a partner to create software modules that were developed in Windows and cross compiled for a Linux system<br>
+              •	Tested newly created modules within the existing system to check for all possible cases<br>
+              •	Created design documents based off of customer specifications<br>
+              •	Added new functionality to an existing website and stored the new associated data using SQL Server Management Studio<br>
+              •	Debugged the company’s time card system
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading"><font size="5">Educational Experience</font></div>
+            <div class="panel-body">
+              Programming Course in Java- September 2014
+              •	Created a program with a GUI interface, replicating the electoral college voting system
+              •	Designed a multi-threaded program that displayed bouncing balls, each in their own thread
+              •	Created a simple webpage to display programming projects using simple html
+              •	Communicated technically during oral examinations in which programming design and choices were explained to the instructor
+              •	Collaborated on an Android App in which the user had to repeat back a randomly generated sequence of button presses and movements
+              Programming Course in C++                                                                                                            September 2013
+              •	Created a memory game in which the computer and user take turns randomly generating a value, and the user must correctly repeat the sequence
+              •	Developed an algorithm to help a 3pi robot navigate a maze
+              Programming Course in C                                                                                                                         March 2013
+              •	Created a program that simulates a cash register system and keeps track of inventory
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading"><font size="5">Activites and Honors</font></div>
+            <div class="panel-body">
+              •	University of Iowa Presidential Scholar
+              <br>
+              •	Women in Science and Engineering (WISE)- 2012- Present
+              <br>
+              •	Treasurer for IEEE student chapter at University of Iowa- 2015-2016
+
+            </div>
+          </div>
+            
+       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.2/angular.min.js"></script>
+       <script src="controllers/controller.js"> </script>
+    </body>
+</html>
